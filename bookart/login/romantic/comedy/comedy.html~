@@ -1,0 +1,711 @@
+<html>
+<head>
+<title> COMEDY BOOKS</title>
+<style>
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  h1,h2,h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+  }
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	background-image: url(download (3).jpg);
+  }
+
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(2%);
+      width: 23%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+ 
+  }
+  .bg-1 {
+      background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/392/392097-bigthumbnail.jpg');
+  }
+.bg-2 {
+      background-color: #ffff00;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      color: #ffff00;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #fff00;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff00;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  .navbar {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+	
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+	
+  }
+   .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+	
+  }
+  .navbar-nav li.active a {
+      color: #fff00 !important;
+      background-color: green !important;
+  }
+  .navbar-default .navbar-toggle {
+    background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/392/392097-bigthumbnail.jpg');
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+div .headerbg{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    overflow: visible;
+    padding:left;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="css/jquery.min.js"></script>
+  <script src="css/bootstrap.min.js"></script>
+
+
+
+
+</head>
+<body>
+<div class="container-fluid bg-2 text-center">
+  <h2 color="red">BOOK Kart <b>.in</b></h2>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid bg-1 text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">About us</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">CONTACT US</a></li>
+        <li><a href="#band">DELIVERY &RETURNS</a></li>
+        <li><a href="terms.html">TERMS AND CONDITIONS</a></li>
+	<li><div class="search" itemscope itemtype="http://schema.org/WebSite">
+<form action="/Search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+<div id="mobileheader" margin="right">
+<div class="mobsearch">
+<form method="post" action="/Search">
+<input type="text" value="" placeholder="search..." name="search">
+<button class="btn btn-success" type="submit" value=""><a href="#"<i class="glyphicon glyphicon-search"></a></i></button>
+</form></li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+<div class="container-fluid bg-2 text-center">
+	<div class="row">
+	<div class="col-sm-4" style= "background-color: lavender;">
+	<h3><a href="/Order/Trace">Trace Order</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Cart">Add To Cart</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Checkout">Checkout</a></h3></div>
+	
+	</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src=“images-5.jpeg” alt="New York" width="1200" height="700" >
+        <div class="carousel-caption">
+
+          <p>All the exciting stuff  you need...we help to buy at your desirable price</p>
+        </div>
+        <div class="carousel-caption">
+
+          <p>All the exciting stuff you need...we help to buy at your desirable price</p>
+      </div>
+	</div>
+      <div class="item">
+        <img src=“images-2.png” alt="Chicago">
+        <div class="carousel-caption">
+          <p>do you want to die out laughing?</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src=“images-5.jpeg” alt="Los Angeles">
+        <div class="carousel-caption">
+          <p>For those who need everything at one place</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container-fluid bg-1 text-center">
+<h2 color="blue"><a href="#">OFFER</a><i class="icon-inr"></i><p color="blue"> 50% off on purchase of 5 horror Books* </p></h2>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3NbAkYZWk7uJRVBReycW_09J8vISqIqo_jPwe-yHLWPWCPtP7iQ" align="right">
+</div>
+
+
+<div class="mobcart">
+<ul id="mobilecart" class="icon1 sub-icon1 profile_img">
+<li><button class="active-icon btn btn-primary" align="left">Shopping Cart &nbsp;&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-shopping-cart"> </i> <span class="badge">0</span></button>
+<ul class="sub-icon1 list">
+<li><p>Why Don't you add some books?</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="img">
+<a href="<html>
+<head>
+<title> FICTION BOOKS</title>
+<style>
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  h1,h2,h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+  }
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	background-image: url(download (3).jpg);
+  }
+
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(2%);
+      width: 23%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+ 
+  }
+  .bg-1 {
+      background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/392/392097-bigthumbnail.jpg');
+  }
+.bg-2 {
+      background-color: #ffff00;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      color: #ffff00;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #fff00;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff00;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  .navbar {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+	
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+	
+  }
+   .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+	
+  }
+  .navbar-nav li.active a {
+      color: #fff00 !important;
+      background-color: green !important;
+  }
+  .navbar-default .navbar-toggle {
+    background-image: url('https://dncache-mauganscorp.netdna-ssl.com/thumbseg/392/392097-bigthumbnail.jpg');
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+div .headerbg{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    overflow: visible;
+    padding:left;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="container-fluid bg-2 text-center">
+  <h2 color="red">BOOK Kart <b>.in</b></h2>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid bg-1 text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">About us</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">CONTACT US</a></li>
+        <li><a href="#band">DELIVERY &RETURNS</a></li>
+        <li><a href="#tour">TERMS AND CONDITIONS</a></li>
+	<li><div class="search" itemscope itemtype="http://schema.org/WebSite">
+<form action="/Search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+<div id="mobileheader" margin="right">
+<div class="mobsearch">
+<form method="post" action="/Search">
+<input type="text" value="" placeholder="search..." name="search">
+<button class="btn btn-success" type="submit" value=""><a href="#"<i class="glyphicon glyphicon-search"></a></i></button>
+</form></li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+<div class="container-fluid bg-2 text-center">
+	<div class="row">
+	<div class="col-sm-4" style= "background-color: lavender;">
+	<h3><a href="/Order/Trace">Trace Order</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Cart">Add To Cart</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Checkout">Checkout</a></h3></div>
+	
+	</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJ2_toRpaQapIPfXTN0MGqXFlxe989Z-_kzMqZqiwdIUwvnDw_" alt="New York" width="1200" height="700" >
+        <div class="carousel-caption">
+
+          <p>want to die out of laughter??…we help you to buy funny novels at desirable price</p>
+        </div>
+        <div class="carousel-caption">
+
+          <p>want to die out of laughter??…we help you to buy funny novels at desirable price</p>
+      </div>
+	</div>
+      <div class="item">
+        <img src=“funny pic for project.jpg” alt="Chicago">
+        <div class="carousel-caption">
+          <p>are you a comic fan?</p>
+        </div>
+      </div>
+    
+      <div class="item">data:image/jpeg;base64,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        <img src="https://images5.alphacoders.com/710/thumb-350-710081.jpg" alt="Los Angeles">
+        <div class="carousel-caption">
+          <p>For those who need everything at one place</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container-fluid bg-1 text-center">
+<h2 color="blue"><a href="#">OFFER</a><i class="icon-inr"></i><p color="blue"> 50% off on purchase of 5 horror Books* </p></h2>
+<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3NbAkYZWk7uJRVBReycW_09J8vISqIqo_jPwe-yHLWPWCPtP7iQ" align="right">
+</div>
+
+
+<div class="mobcart">
+<ul id="mobilecart" class="icon1 sub-icon1 profile_img">
+<li><button class="active-icon btn btn-primary" align="left">Shopping Cart &nbsp;&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-shopping-cart"> </i> <span class="badge">0</span></button>
+<ul class="sub-icon1 list">
+<li><p>Why Don't you add some books?</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="img">
+<a href="funniest1.jpg” class="thumbnail">
+<img src="funniest1.jpg" alt="Mountain View"><div class="desc">
+ There's a (Slight) Chance I Might be Going to Hell by <b>Laurie Notaro</b><br>RS./130<br> <button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div>
+	</div>  <div class="img">
+	<a href="funniest2.jpg" class="thumbnail">
+	<img src=“funniest2.jpg" alt="Mountain View;">
+	<div class="desc">The Pro by Garth Ennis<br> Rs./150<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href=“funniest3.jpg" class="thumbnail">
+	<img src=“funniest3.jpg" alt="Mountain View;">
+	<div class="desc">John Dies at the End by David Wong<br> Rs./150<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href="funniest4.jpg” class="thumbnail">
+	<img src="funniest4.jpg”>
+      	<div class="desc">Crooked Little Vein by Warren Ellis<br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href="funniest5.jpg" alt="rfrf" class="thumbnail">
+	<img src="funniest5.jpg" alt="rfrf"><div class="desc">Good Omens by Neil Gaiman and Terry Pratchett <br>Rs./120<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href="funniest6.jpg" class="thumbnail">
+	<img src="funniest6.jpg" alt="Mountain View"><div class="desc">Irene Iddesleigh by Amanda McKittrick Ros
+ <br>RS./170<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div>
+    </div>
+<div class="img">
+	<a href="funniest7.jpg" class="thumbnail">
+	<img src="funniest7.jpg" alt="W3Schools.com">
+      	<div class="desc">Things My Girlfriend and I Have Argued About by Mil Millington <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="funniest8.jpg" class="thumbnail">
+	<img src="funniest8.jpg" alt="W3Schools.com">
+      	<div class="desc">Hitchhiker's Guide to the Galaxy by Douglas Adams <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="funniest9.jpg" class="thumbnail">
+	<img src="funniest9.jpg">
+      	<div class="desc">Lamb by Christopher Moore <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="funniest10.jpg" class="thumbnail">
+	<img src="funniest10.jpg" alt="W3Schools.com">
+      	<div class="desc">M*A*S*H by Richard Hooker <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href=“images.jpeg” class="thumbnail">
+	<img src=“images.jpeg” alt="W3Schools.com">
+      	<div class="desc">ME TALK PRETTY ONE DAY <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href=“images-2.jpeg” class="thumbnail">
+	<img src=“images-2.jpeg” alt="W3Schools.com">
+      	<div class="desc">WITHOUT FEATHERS BY WOODY ALLEN <br>Rs./150<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href=“images-3.jpeg” class="thumbnail">
+	<img src=“images-3.jpeg”>
+      	<div class="desc">I Drink For A Reason <br> <br>Rs./160<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href=“images.png” class="thumbnail">
+	<img src=“images.png” alt="W3Schools.com">
+      	<div class="desc">Good Omens<br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href=“images-4.jpeg” class="thumbnail">
+	<img src=“images-4.jpeg” alt="W3Schools.com">
+      	<div class="desc">Comedy At The Edge <br>Rs./159<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+
+</div>
+
+
+
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="footer_top">
+<div class="container">
+<div class="span_of_4">
+<div class="span1_of_4">
+<h4>Why we..?</h4>
+<ol class="f_nav">
+<li>Free delivery</li>
+<li>Maxm discount</li>
+<li>Cash on Delivery</li>
+<li>Same/Next day delivery</li>
+<li>Ask Experts About Books</li>
+</ol>
+</div>
+
+
+<h4>We are social too..!</h4>
+<ul class="f_nav">
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Pin it</a></li>
+<li><a href="#">Linked In</a></li>
+</ul>
+</div>
+</footer>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

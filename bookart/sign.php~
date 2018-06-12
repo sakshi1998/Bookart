@@ -1,0 +1,63 @@
+<?php 
+session_start();
+$con = mysqli_connect("localhost","root","","user1");
+if (!$con)
+{
+  die('Could not connect: ' . mysqli_connect_error());
+}
+mysqli_select_db($con,"user1");
+$q="select email from userreg";
+$q1=mysqli_query($con,$q);
+$w=$_POST['username'];
+$e=$_POST['lname'];
+$qqq=$_POST['middlename'];
+$ft=$_POST['sexma'];
+$jk=$_POST['dob'];
+$r=$_POST['email'];
+$y=$_POST['password'];
+$f=$_POST['repassword'];
+$oo=$_POST['qu'];
+$pp=$_POST['ans'];
+$g=0;
+//$date=mysql_query("select curdate() from dual",$con);
+//$da=mysql_fetch_assoc($date,)
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data;
+}
+while($roo=mysqli_fetch_array($q1))
+{
+if($roo['email']==$r)
+	$g=1;
+}
+if($g==1)
+{
+	session_unset();
+	session_destroy();
+	echo '<script type="text/javascript">
+	alert("Useremail already exist");
+           window.location = "signup.html";
+      </script>';
+}
+else
+{
+	if($y==$f)
+	{$t=mysqli_query($con,"insert into userreg values('$w','$e','$qqq','$ft','$jk','$r','$y','$f','$oo','$pp')");
+	/*if($y=="EXPERT")
+	{
+		$tr=mysqli_query("insert into expert values('$w','$f')",$con);
+	}
+	else
+	{
+		$fd=mysqli_query("insert into fav values('$w','$f')",$con);
+	}*/
+	echo '<script type="text/javascript">
+	alert("Username already exist");
+           window.location = "signup.html";
+      </script>';
+
+}
+}
+?>

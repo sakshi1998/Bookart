@@ -1,0 +1,34 @@
+
+<?php 
+session_start();
+$con = mysqli_connect("localhost","root","","bookart");
+
+if (!$con)
+{
+  die('Could not connect: ' . mysqli_connect_error());
+}
+mysqli_select_db($con,"bookart");
+
+
+
+$_SESSION['username'] = $var_value;
+
+
+
+$e=$_POST['varname'];
+$d="select  book_id from books where book_name=$e";
+$sql = mysqli_query($con,$d);
+
+
+
+$f="select  price from books where book_name=$e";
+$sql = mysqli_query($con,$f);
+
+
+$t=mysqli_query($con,"insert into buynow values('$e','$d','$f','$var_value')");
+	
+	/*echo '<script type="text/javascript">
+           window.location = "orderdplace.html";
+      </script>';*/
+
+?>

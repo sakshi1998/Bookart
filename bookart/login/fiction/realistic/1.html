@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+<title>WELCOME TO BOOKART</title>
+<body style="background-color:white;">
+<p>
+<center>
+<img src="logo.gif" style="width:300px;height:300px;"> 
+</center>
+</p>
+<style>
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+<center>
+<table CELLPADDING="0" CELLSPACING="80">
+<tr>
+<td>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn" id="b1">WRITING GENRES</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Fiction</a>
+    <a href="#about">Comedy</a>
+    <a href="#contact">Tragicomedy</a>
+    <a href="#about">Drama</a>
+    <a href="#contact">Horror</a>
+    <a href="#about">Non-fiction</a>
+    <a href="#contact">Realistic fiction</a>
+    <a href="#contact">Romance novel</a>
+    <a href="#about">Satire</a>
+    <a href="#contact">Tragedy</a>
+  </div>
+</div>
+</td>
+<td>
+ <div class="dropdown">
+<button onclick="myFunction2()" class="dropbtn" id="b2">AUTHORS</button>
+  <div id="myDropdown2" class="dropdown-content">
+    <a href="#home">A-D</a>
+    <a href="#about">E-H</a>
+    <a href="#contact">I-M</a>
+    <a href="#about">N-Q</a>
+    <a href="#contact">R-V</a>
+    <a href="#about">W-Z</a>  </div>
+  </div>
+</div>
+ </td>
+ <td>
+ <div class="dropdown">
+<button onclick="myFunction3()" class="dropbtn" id="b2">BOOK NAME</button>
+  <div id="myDropdown3" class="dropdown-content">
+    <a href="#home">A-D</a>
+    <a href="#about">E-H</a>
+    <a href="#contact">I-M</a>
+    <a href="#about">N-Q</a>
+    <a href="#contact">R-V</a>
+    <a href="#about">W-Z</a>
+  </div>
+    </div>
+	</td>
+	<td>
+ <div class="dropdown">
+<button onclick="myFunction4()" class="dropbtn" id="b3">DISCOUNTS</button>
+  <div id="myDropdown4" class="dropdown-content">
+    <a href="#home">0-5%</a>
+    <a href="#about">5-10%</a>
+    <a href="#contact">10-20%</a>
+    <a href="#about">20-30%</a>
+    <a href="#contact">MORE THAN 30%</a>
+  </div>
+    </div>
+</td>
+<td>
+ <div class="dropdown">
+<button onclick="myFunction5()" class="dropbtn" id="b2">AVAILABILITY(DISTRICTS)</button>
+  <div id="myDropdown5" class="dropdown-content">
+    <a href="#home">NEW DELHI</a>
+    <a href="#about">NORTH-DELHI</a>
+    <a href="#contact">NORTH WEST DELHI</a>
+    <a href="#about">WEST DELHI</a>
+    <a href="#contact">SOUTH WEST DELHI</a>
+    <a href="#about">SOUTH DELHI</a>
+    <a href="#contact">SOUTH EAST DELHI</a>
+    <a href="#contact">CENTRAL DELHI</a>
+    <a href="#about">NORTH EAST DELHI</a>
+    <a href="#contact">SHAHDARA</a>
+	<a href="#about">EAST DELHI</a>
+  </div>
+  </div>
+  </td>
+   </tr>
+  </table>
+  <br>
+  <p>
+  <font size="5">
+  <I>
+  Books plays an important role in in our life. Books are our friends in a real sense. They demand nothing from us. 
+  They give us plenty of joy. We also learn a lot from them. They take us into a different world of imagination.
+  Good books improve our standard of living. They tone up our intellectual taste they make our outlook broad. 
+  They console us when we are depressed.Books encourage us when we are defeated. They inspire us to work hard with hope and courage. 
+  They remove our ignorance and add to our knowledge. Books enrich our experience and sharpen our intellect. Thus a good book is our true friend.
+  </I>
+  </font>
+  </p>
+<a href="contact.html">CONTACT US</a>
+  </center>   
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+function myFunction3() {
+    document.getElementById("myDropdown3").classList.toggle("show");
+}
+
+function myFunction4() {
+    document.getElementById("myDropdown4").classList.toggle("show");
+}
+
+function myFunction5() {
+    document.getElementById("myDropdown5").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+</div>
+</body>
+</head>
+</html>

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Register - Admin Panel</title>
+</head>
+<body>
+<?php //include ('connect.php'); 
+//session_start();                 // give a look at session variables
+        $con = mysqli_connect("localhost","root","");
+if (!$con)
+{
+  die('Could not connect: ' . mysql_error());
+}
+mysqli_select_db($con,"bookart");
+?>
+<?php include ('functions.php'); ?>
+<h3>Login Here:</h3>
+<form method='post'>
+<?php
+if(isset($_POST['submit'])){
+$username = $_POST['username'];
+$password = $_POST['password'];
+if(empty($username) or empty($password))
+echo "<p>Fields Empty</p>";
+else
+{
+$check_login = mysqli_query("SELECT a_username,a_password FROM admin WHERE a_username = '$username' AND a_password = '$password'");
+echo $check_login;
+if(mysqli_num_rows($check_login) == 1)
+{
+$_SESSION['user_id'] = $user_id;
+header('location:  web.html');
+}
+else
+{
+echo "<p>Username or Password incorrect !</p>";
+}
+}
+}
+?>
+User Name :<br/>
+<input type='text' name='username'/>
+<br/><br/>
+Password :<br/>
+<input type='password' name='password'/>
+<br/><br/>
+<input type='submit' name='submit' value='Login'/>
+</form>
+</body>
+</html>

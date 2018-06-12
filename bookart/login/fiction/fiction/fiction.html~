@@ -1,0 +1,378 @@
+<html>
+<head>
+<title> FICTION BOOKS</title>
+<style>
+ body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  h1,h2,h3, h4 {
+      margin: 10px 0 30px 0;
+      letter-spacing: 10px;
+      font-size: 20px;
+      color: #111;
+  }
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+	background-image: vector.jpg;
+  }
+
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  .carousel-inner img {
+      -webkit-filter: grayscale(2%);
+      width: 23%; 
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+ 
+  }
+  .bg-1 {
+      background-image: url(‘bg.jpg’);
+  }
+.bg-2 {
+      background-color: #ffff00;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      color: #ffff00;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+  }
+  .thumbnail p {
+      margin-top: 15px;
+      color: #555;
+  }
+  .btn {
+      padding: 10px 20px;
+      background-color: #fff00;
+      color: #f1f1f1;
+      border-radius: 0;
+      transition: .2s;
+  }
+  .btn:hover, .btn:focus {
+      border: 1px solid #333;
+      background-color: #fff00;
+      color: #000;
+  }
+  .modal-header, h4, .close {
+      background-color: #333;
+      color: #fff !important;
+      text-align: center;
+      font-size: 30px;
+  }
+  .modal-header, .modal-body {
+      padding: 40px 50px;
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  .navbar {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+	
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: black !important;
+	
+  }
+   .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+	
+  }
+  .navbar-nav li.active a {
+      color: #fff00 !important;
+      background-color: green !important;
+  }
+  .navbar-default .navbar-toggle {
+    background-image: url(‘bg.jpg');
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+  footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+  .form-control {
+      border-radius: 0;
+  }
+  textarea {
+      resize: none;
+  }
+div .headerbg{
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    overflow: visible;
+    padding:left;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="container-fluid bg-2 text-center">
+  <h2 color="red">BOOK Kart <b>.in</b></h2>
+</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-fluid bg-1 text-center">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#myPage">About us</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#myPage">CONTACT US</a></li>
+        <li><a href="#band">DELIVERY &RETURNS</a></li>
+        <li><a href="terms.html">TERMS AND CONDITIONS</a></li>
+	<li><div class="search" itemscope itemtype="http://schema.org/WebSite">
+<form action="/Search" itemprop="potentialAction" itemscope itemtype="http://schema.org/SearchAction">
+<div id="mobileheader" margin="right">
+<div class="mobsearch">
+<form method="post" action="/Search">
+<input type="text" value="" placeholder="search..." name="search">
+<button class="btn btn-success" type="submit" value=""><a href="#"<i class="glyphicon glyphicon-search"></a></i></button>
+</form></li>
+       
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+
+<div class="container-fluid bg-2 text-center">
+	<div class="row">
+	<div class="col-sm-4" style= "background-color: lavender;">
+	<h3><a href="/Order/Trace">Trace Order</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Cart">Add To Cart</a></h3></div>
+	<div class="col-sm-4" style="background-color: lavender;">
+	<h3><a href="/Order/Checkout">Checkout</a></h3></div>
+	
+	</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="https://i.kinja-img.com/gawker-media/image/upload/s--zpScKes---/c_fit,fl_progressive,q_80,w_636/18lopz775ys3fjpg.jpg" alt="New York" width="1200" height="700" >
+        <div class="carousel-caption">
+
+          <p>All the mystries and adventures you need...we help to buy at your desirable price</p>
+        </div>
+        <div class="carousel-caption">
+
+          <p>All the mystries and adventures you need...we help to buy at your desirable price</p>
+      </div>
+	</div>
+      <div class="item">
+        <img src=“bg2.jpg” alt="Chicago">
+        <div class="carousel-caption">
+          <p>Love to read fiction?</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src=“bg3.jpg” alt="Los Angeles">
+        <div class="carousel-caption">
+          <p>For those who need everything at one place</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+<div class="container-fluid bg-1 text-center">
+<h2 color="blue"><a href="#">OFFER</a><i class="icon-inr"></i><p color="blue"> 50% off on purchase of 5 horror Books* </p></h2>
+<img src=“cat.jpg”
+ align="right">
+</div>
+
+
+<div class="mobcart">
+<ul id="mobilecart" class="icon1 sub-icon1 profile_img">
+<li><button class="active-icon btn btn-primary" align="left">Shopping Cart &nbsp;&nbsp;&nbsp;&nbsp;<i class="glyphicon glyphicon-shopping-cart"> </i> <span class="badge">0</span></button>
+<ul class="sub-icon1 list">
+<li><p>Why Don't you add some books?</p></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="img">
+<a href="3muskeeters.jpg” class="thumbnail">
+<img src="3muskeeters.jpg" alt="Mountain View"><div class="desc">The three musketeers <br>RS./130<br> <button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div>
+	</div>  <div class="img">
+	<a href="chetan bhagat.jpg" class="thumbnail">
+	<img src=“chetan bhagat.jpg" alt="Mountain View">
+	<div class="desc"> one indian girl<br> Rs./150<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href=“durjoy.jpg" class="thumbnail">
+	<img src=“durjoy.jpg" alt="Mountain View">
+	<div class="desc"><form method=“post” action=“order.php”><input type=“hidden” name=“varname” value=“the girl of my dreams”>
+the girl of my dreams<br> Rs./200<br><input type=“submit” class="btn" data-toggle="modal" data-target="#myModal" value=“Buy Now”/></a></form></div></div>
+	<div class="img">
+	<a href="everyone has a story.jpg” class="thumbnail">
+	<img src="everyone has a story.jpg”>
+      	<div class="desc">Everyone Has A Story<br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href="harrypotter.jpg" alt="rfrf" class="thumbnail">
+	<img src="harrypotter.jpg" alt="rfrf"><div class="desc">Harry Potter And The Cursed Child <br>Rs./120<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+	<div class="img">
+	<a href="oldmanandthesea.jpg" class="thumbnail">
+	<img src="oldmanandthesea.jpg" alt="Mountain View"><div class="desc">The Old Man And The Sea <br>RS./170<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div>
+    </div>
+<div class="img">
+	<a href="preety.jpg" class="thumbnail">
+	<img src="preety.jpg" alt="W3Schools.com">
+      	<div class="desc">Life Is What You Make It <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="william shakespeare.jpg" class="thumbnail">
+	<img src="william shakespeare.jpg" alt="W3Schools.com">
+      	<div class="desc">William Shakespeare The Complete Collection <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="charles dickens.jpg" class="thumbnail">
+	<img src="charles dickens.jpg" alt="W3Schools.com">
+      	<div class="desc">The Tale Of Two Cities <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+<div class="img">
+	<a href="sherlock holmes.jpg" class="thumbnail">
+	<img src="sherlock holmes.jpg" alt="W3Schools.com">
+      	<div class="desc">Sherlock Holmes The Complete Collection <br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+
+
+
+
+<div class="img">
+	<a href=“tws.jpg” class="thumbnail">
+	<img src=“tws.jpg" alt="W3Schools.com">
+      	<div class="desc">The Whisky Sea<br>Rs./119<br><button class="btn" data-toggle="modal" data-target="#myModal">Buy Now</button></a></div></div>
+
+
+
+
+<footer>
+<div class="footer_top">
+<div class="container">
+<div class="span_of_4">
+<div class="span1_of_4">
+<h4>Why we..?</h4>
+<ol class="f_nav">
+<li>Free delivery</li>
+<li>Maxm discount</li>
+<li>Cash on Delivery</li>
+<li>Same/Next day delivery</li>
+<li>Ask Experts About Books</li>
+</ol>
+</div>
+
+
+<h4>We are social too..!</h4>
+<ul class="f_nav">
+<li><a href="#">Facebook</a></li>
+<li><a href="#">Twitter</a></li>
+<li><a href="#">Pin it</a></li>
+<li><a href="#">Linked In</a></li>
+</ul>
+</div>
+</footer>
+</div>
+
+</body>
+</html>
+
